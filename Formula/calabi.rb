@@ -9,7 +9,7 @@
 # (under /latest/, the rolling current-release path).
 #
 # On each release: bump `version` and replace all four sha256 values (they're in
-# packaging/checksums.txt).
+# packaging/SHA256SUMS).
 class Calabi < Formula
   desc "Secure tunnels to localhost — HTTPS/TCP/UDP with access control"
   homepage "https://calabi.net"
@@ -20,22 +20,22 @@ class Calabi < Formula
   on_macos do
     on_arm do
       url "https://download.calabi.net/latest/calabi-macos-arm64.tar.gz"
-      sha256 "1e1ad3389875028b3f47214d250844d03d8d53a0062d03db993fc6b5767e39ba"
+      sha256 "ec38b90c8551854ca6e881b6ea9cc06bea1b4232452ec3ece8bd34337f6e96ec"
     end
     on_intel do
       url "https://download.calabi.net/latest/calabi-macos-amd64.tar.gz"
-      sha256 "5a9ea9c6cb39faaa716efa5661bfda0d61bbb0026158bf765785a8cfddb6151d"
+      sha256 "fe2ca05904ee63e294aba5b2f2ab162cd0699559d5746ed1c3bc7879d5be98bf"
     end
   end
 
   on_linux do
     on_arm do
       url "https://download.calabi.net/latest/calabi-linux-arm64.tar.gz"
-      sha256 "97cba39f6b468e93031f3cf1494e37a3a2c8d4d17c56c0ad1e0a11b4ab7dda95"
+      sha256 "968f1c52d6f33a5a217ee1d8e32f77f07193ba827266b0624cee8b86e3f84d0b"
     end
     on_intel do
       url "https://download.calabi.net/latest/calabi-linux-amd64.tar.gz"
-      sha256 "41d98f620594978b8950cd80c30e01dddb16c6e0a45e82bd7157c027d1ec24eb"
+      sha256 "1bf6418a0e00b7eb2916a3e12b8563bd56d6879cebcb20d4180031a40a5ab264"
     end
   end
 
