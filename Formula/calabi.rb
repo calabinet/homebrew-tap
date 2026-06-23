@@ -20,22 +20,22 @@ class Calabi < Formula
   on_macos do
     on_arm do
       url "https://download.calabi.net/latest/calabi-macos-arm64.tar.gz"
-      sha256 "de38c38c163206deb3b29258ec4ab0782d702e0dfe26557ac598e744f81fbced"
+      sha256 "2d75d3016859561afc97d610203d0a4bcfb029458c0beb0d638d8581bf6d82b0"
     end
     on_intel do
       url "https://download.calabi.net/latest/calabi-macos-amd64.tar.gz"
-      sha256 "09a7b25222509d8be379e79ff9c34af0fd20953fe202c9dacfe50f882cd1a59d"
+      sha256 "bf00947797bc9f346dba63cc539d89b5181d012a2dcc147ae545af92e813bbfa"
     end
   end
 
   on_linux do
     on_arm do
       url "https://download.calabi.net/latest/calabi-linux-arm64.tar.gz"
-      sha256 "d468aec175ba385219e174fde41851e94d434519e0952f9034e640efeff16a19"
+      sha256 "d4ab95d920b799383889253ff6314c0f8b0142bd842725c066beac1cfbe6b920"
     end
     on_intel do
       url "https://download.calabi.net/latest/calabi-linux-amd64.tar.gz"
-      sha256 "a67d3b03850809cb9dcbe676e5c918b52557e2421a3abe69be0c10e0ac448bb0"
+      sha256 "450dddc5d13831604aa9c4480c2e56bf83dc38927d25d8c6b4ebb7c17661f300"
     end
   end
 
