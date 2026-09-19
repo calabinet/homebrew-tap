@@ -13,29 +13,29 @@
 class Calabi < Formula
   desc "Secure tunnels to localhost — HTTPS/TCP/UDP with access control"
   homepage "https://calabi.net"
-  version "1.12.0"
+  version "1.13.0"
   # Set this to the client's real distribution license before publishing.
   # license "Proprietary"
 
   on_macos do
     on_arm do
       url "https://download.calabi.net/latest/calabi-macos-arm64.tar.gz"
-      sha256 "f79a0a3c879a96b946a9c5141dad2fe44cce1c0509338e70111faac3a023774f"
+      sha256 "10400482211952c7b677f6e8bca697cb0d61f9ce74bb62381a45062fc570a0f1"
     end
     on_intel do
       url "https://download.calabi.net/latest/calabi-macos-amd64.tar.gz"
-      sha256 "ad24fd82cc12c2a4ba84668557685ebf8f46841d28cab9c63a207b753c39ca1d"
+      sha256 "641cc62fd3fffdc4d46a640e787b6259115421da38581f8add939c4b69f16e40"
     end
   end
 
   on_linux do
     on_arm do
       url "https://download.calabi.net/latest/calabi-linux-arm64.tar.gz"
-      sha256 "c0c9a7666d085a9397faa5e18eadc4c958438525954413259ceed908829ab9ec"
+      sha256 "34e8056670235f477a12593ce854e2c9409089076eea92d8e3bcd428f9e6b5cb"
     end
     on_intel do
       url "https://download.calabi.net/latest/calabi-linux-amd64.tar.gz"
-      sha256 "8df22a2ddaa5ec6727c889a90cf93456dcaa9e6458d8130dc6bf9a267c32389b"
+      sha256 "47fd3a5addfbfeff132d186ca8a69af3eaf0865442993624f2f8108fa9deb196"
     end
   end
 
